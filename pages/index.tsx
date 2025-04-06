@@ -1,3 +1,4 @@
+import Link from 'next/link'
 export default function Home() {
   return (
     <div className="px-4 sm:px-8 py-10 max-w-4xl mx-auto">
@@ -27,9 +28,11 @@ export default function Home() {
       </section>
 
       <div className="text-center">
-        <button className="bg-black text-white px-6 py-3 rounded-full font-semibold text-sm sm:text-base hover:scale-105 hover:bg-gray-800 transition-all duration-200">
-          View Menu (Coming Soon)
-        </button>
+        <Link href="/menu" passHref>
+          <button className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto">
+            View Menu
+          </button>
+        </Link>
       </div>
     </div>
   );
