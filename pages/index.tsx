@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <div className="px-4 sm:px-8 py-10 max-w-4xl mx-auto">
