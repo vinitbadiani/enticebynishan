@@ -34,7 +34,7 @@ export default function MenuPage({ menu }: Props) {
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  const { data: menu, error } = await supabase
+  const { data: menu } = await supabase
     .from('menu')
     .select('*')
     .eq('is_active', true)
