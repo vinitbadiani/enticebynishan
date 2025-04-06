@@ -15,7 +15,7 @@ export default function Contact() {
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-16">
-      <h1 className="text-3xl font-bold mb-4 text-center">Let's talk!</h1>
+      <h1 className="text-3xl font-bold mb-4 text-center">Let&apos;s talk!</h1>
       <p className="text-center text-gray-600 mb-8">
         You can reach us anytime at <a href="mailto:enticebynishan@gmail.com" className="text-blue-600 hover:underline">enticebynishan@gmail.com</a>
       </p>
